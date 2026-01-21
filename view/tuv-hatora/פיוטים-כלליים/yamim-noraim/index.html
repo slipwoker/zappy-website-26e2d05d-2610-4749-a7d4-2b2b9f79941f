@@ -1,0 +1,1479 @@
+<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yamim Noraim - Comprehensive collection of High Holy Days piyutim including Ochila L'El, Chamol Al Ma'asecha, and Elohenu V'Elohei Avotenu. Features detailed Hebrew text with commentary, biblical sources, and explanations of these sacred prayers recited during Rosh Hashana and Yom Kippur services.">
+    <meta name="robots" content="index, follow">
+    <title>Yamim Noraim</title>
+    <link rel="canonical" href="https://example.com/view/tuv-hatora/פיוטים-כלליים/yamim-noraim">
+    <style>
+        :root {
+            --primary-dark: #1c1c1c;
+            --navy-blue: #0c4466;
+            --light-gray: #dadce0;
+            --off-white: #f9f9f9;
+            --link-blue: #0000ee;
+            --white: #ffffff;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: var(--primary-dark);
+            background-color: var(--white);
+        }
+
+        /* Skip to content link */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--navy-blue);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* Header & Navigation */
+        .navbar {
+            background: var(--white);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 80px;
+        }
+
+        .logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .logo {
+            height: 50px;
+            width: auto;
+            transition: var(--transition);
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 0.75rem 1rem;
+            color: var(--primary-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+
+        .nav-link:hover {
+            background-color: var(--off-white);
+            color: var(--navy-blue);
+        }
+
+        .nav-link.active {
+            background-color: var(--navy-blue);
+            color: var(--white);
+        }
+
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--primary-dark);
+            padding: 0.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--navy-blue) 0%, #0a5a7d 100%);
+            color: var(--white);
+            padding: 100px 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(255,255,255,0.05)" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
+            background-size: cover;
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .content-section {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            box-shadow: var(--shadow);
+            animation: fadeIn 0.6s ease;
+        }
+
+        .content-section h2 {
+            font-size: 2rem;
+            color: var(--navy-blue);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 3px solid var(--light-gray);
+        }
+
+        .content-section h3 {
+            font-size: 1.5rem;
+            color: var(--navy-blue);
+            margin: 2rem 0 1rem;
+            font-weight: 600;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+
+        .piyut-text {
+            background: var(--off-white);
+            border-right: 4px solid var(--navy-blue);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            font-size: 1.15rem;
+            line-height: 2;
+        }
+
+        .commentary {
+            background: linear-gradient(to right, #f8f9fa, var(--white));
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            border-left: 4px solid var(--navy-blue);
+        }
+
+        .footnote {
+            font-size: 0.95rem;
+            color: #555;
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .footnote::before {
+            content: '•';
+            position: absolute;
+            left: 0.5rem;
+            color: var(--navy-blue);
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .nav-menu {
+                gap: 0.25rem;
+            }
+
+            .nav-link {
+                padding: 0.5rem 0.75rem;
+                font-size: 0.9rem;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 80px;
+                flex-direction: column;
+                background-color: var(--white);
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow: var(--shadow);
+                padding: 2rem 0;
+                max-height: calc(100vh - 80px);
+                overflow-y: auto;
+            }
+
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .nav-item {
+                width: 100%;
+            }
+
+            .nav-link {
+                padding: 1rem;
+                width: 100%;
+            }
+
+            .hero {
+                padding: 60px 1.5rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .content-section {
+                padding: 2rem 1.5rem;
+            }
+
+            .content-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .piyut-text {
+                padding: 1.5rem;
+                font-size: 1.05rem;
+            }
+        }
+
+        /* Focus Styles for Accessibility */
+        *:focus {
+            outline: 3px solid var(--navy-blue);
+            outline-offset: 2px;
+        }
+
+        /* Print Styles */
+        @media print {
+            .navbar,
+            .mobile-menu-toggle,
+            footer {
+                display: none;
+            }
+
+            .content-section {
+                box-shadow: none;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.04);
+  padding: 16px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 21px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 21px;
+  direction: ltr !important;
+  unicode-bidi: isolate;
+}
+
+    .zappy-header p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      display: inline-block;
+      vertical-align: baseline;
+      margin-bottom: 0 !important;
+      direction: ltr !important;
+    }
+
+.zappy-header .zappy-link {
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.zappy-header .zappy-link:hover {
+  opacity: 0.7;
+}</style>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+<!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '26e2d05d-2610-4749-a7d4-2b2b9f79941f',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: #333 !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))), .sub-menu:not(:has(li)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .sub-menu.mobile-expanded { max-height: 500px !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; }
+        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: 44px !important; background: transparent !important; border: none !important; cursor: pointer !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p>Happily created by&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            
+          <button id="mobileToggle" class="mobile-toggle" aria-label="Menu">
+            <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+            <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none;">
+              <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+          </button>
+        
+            <button class="phone-header-btn" aria-label="Call">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </button>
+          <div class="nav-container">
+                <a href="/" class="logo-link" aria-label="טוב התורה Home">
+                    <img src="/assets/logo.webp" alt="טוב התורה logo" class="logo">
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    ☰
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="/view/tuv-hatora/" class="nav-link">Tuv Hatora</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/about" class="nav-link">אודות</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/holidays" class="nav-link">Holidays</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/articles" class="nav-link">Articles</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/piut" class="nav-link">Piut</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/פיוטים-כלליים/yamim-noraim" class="nav-link active">Yamim Noraim</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/mikra" class="nav-link">Mikra</a></li>
+                    <li class="nav-item"><a href="/view/tuv-hatora/kodesh" class="nav-link">Kodesh</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>פיוטי ימים נוראים</h1>
+        </div>
+    </section>
+
+    <main id="main-content" role="main">
+        <article class="content-section">
+            <h2>אוחילה לא-ל - Introduction to Prayer</h2>
+            
+            <div class="commentary">
+                <p>הפיוט אוחילה לא-ל הוא הקדמה של החזן לתפילתו, והיטיב לתאר האלשיך (דניאל ט, ג) את עניינה:</p>
+                
+                <p>"בהראות פני אלקים להעתיר אליו וישמעהו, יעמוד מרעיד ואימתו יבעתהו מהכין לבו וְדַבֵּר דָּבָר דָּבֻר עַל אָפְנָיו... על כן את הדבר הזה יעשה, כי טרם יענה, יחלה פני אל ויחנהו, יבינוֹ מה שיאמר, יורהו מה שידבר, ויתן לו מענה לשון בל יכשל בלשונו לדבר דבר שלא רצונו, ובגלל הדבר הזה סדרו קדמוננו ביום הזכרון בקשת אוחילה לאל... והן זאת היתה עם לבב אנשי כנה"ג, אשר למדונו להועיל להקדים בכל תפלה ותפלה פסוק ה' שפתי תפתח וכו', לבקש מאתו יתברך טרם נדבר יפתח שפתינו במענה לשון, וסדור דברים נאים ומתקבלים לפני אלוקי עוזנו".</p>
+            </div>
+
+            <div class="piyut-text">
+                <p>אוֹחִילָה<sup>[1]</sup> (אייחל ואצפה) לָאֵל, אֲחַלֶּה<sup>[2]</sup> פָנָיו (אבקש ואתחנן לפניו) אֶשְׁאֲלָה (אבקש) מִמֶּנּוּ<sup>[3]</sup> שיתן לי מַעֲנֵה לָשׁוֹן (שאתפלל כראוי ויתן בפי את המילים הנכונות).</p>
+                
+                <p>אֲשֶׁר בִּקְהַל עָם<sup>[4]</sup> אני החזן אָשִׁירָה עֻזּוֹ<sup>[5]</sup> (כמו שכתוב "בִּשַּׂרְתִּי צֶדֶק בְּקָהָל רָב הִנֵּה שְׂפָתַי לֹא אֶכְלָא..." (תהלים מ, י)), אַבִּיעָה<sup>[6]</sup> רְנָנוֹת<sup>[7]</sup> לה' בְּעַד מִפְעָלָיו (על הדברים שפעל ועשה<sup>[8]</sup>).</p>
+                
+                <p>"לְאָדָם מַעַרְכֵי לֵב (האדם מסדר דבריו בלבו), אך וּמֵה' מַעֲנֵה לָשׁוֹן (שיאמר את הדברים כראוי)" (משלי טז, א).</p>
+                
+                <p>לכן אני מבקש ממך: "אֲדֹנָי שְׂפָתַי תִּפְתָּח, וּפִי יַגִּיד תְּהִלָּתֶךָ" (תהלים נא, יז), "יִהְיוּ לְרָצוֹן אִמְרֵי פִי (הדברים שאמרתי) וְהֶגְיוֹן לִבִּי (ואפילו הדברים שחשבתי בלבי ולא הצלחתי לבטא בשפתי יהיו לרצון) לְפָנֶיךָ  ה' צוּרִי וְגוֹאֲלִי" (תהלים יט, טו).</p>
+            </div>
+
+            <h3>Footnotes</h3>
+            <div class="footnote">[1] חֶלְקִי ה' אָמְרָה נַפְשִׁי עַל כֵּן אוֹחִיל לוֹ (איכה ג, כד).</div>
+            <div class="footnote">[2] נראה שבמילה זו יש יותר להקפיד לבטא את האות ח' כראוי שלא יהיה כמחרף ומגדף.</div>
+            <div class="footnote">[3] אַחַת שָׁאַלְתִּי מֵאֵת ה' אוֹתָהּ אֲבַקֵּשׁ... (תהלים כז, ד)</div>
+            <div class="footnote">[4] וִירֹמְמוּהוּ בִּקְהַל עָם וּבְמוֹשַׁב זְקֵנִים יְהַלְלוּהוּ (תהלים קז, לב)</div>
+            <div class="footnote">[5] וַאֲנִי אָשִׁיר עֻזֶּךָ וַאֲרַנֵּן לַבֹּקֶר חַסְדֶּךָ... (תהלים נט, יז)</div>
+            <div class="footnote">[6] תַּבַּעְנָה שְׂפָתַי תְּהִלָּה כִּי תְלַמְּדֵנִי חֻקֶּיךָ (תהלים קיט, קעא)</div>
+            <div class="footnote">[7] כְּמוֹ חֵלֶב וָדֶשֶׁן תִּשְׂבַּע נַפְשִׁי וְשִׂפְתֵי רְנָנוֹת יְהַלֶּל פִּי (תהלים סג, ו)</div>
+            <div class="footnote">[8] כֹּל פָּעַל ה' לַמַּעֲנֵהוּ וְגַם רָשָׁע לְיוֹם רָעָה (משלי טז, ד)</div>
+        </article>
+
+        <article class="content-section">
+            <h2>חמול על מעשיך - Have Mercy on Your Creations</h2>
+            
+            <div class="commentary">
+                <p>הפיוט "חמול על מעשיך" נאמר בחזרת הש"ץ במוסף של ראש השנה ויום כיפור בתוך ברכת "אתה קדוש". הפיוט מבוסס על דברי מדרש תנחומא בתחילת פרשת קדושים:</p>
+                
+                <p>"...באותה שעה הקב"ה נעשה גבוה בעולמו שנאמר: 'וַיִּגְבַּהּ ה' צְבָאוֹת בַּמִּשְׁפָּט' (ישעיהו ה, טז) מהו 'וְהָאֵל הַקָּדוֹשׁ נִקְדָּשׁ בִּצְדָקָה'? -שהוא מתקדש בעולמו בצדקה שהוא מלמד על ישראל סניגוריא שנאמר: 'אֲנִי מְדַבֵּר בִּצְדָקָה רַב לְהוֹשִׁיעַ' (שם סג, א) אמר הקב"ה לישראל, לעתיד אני מתקדש בכם שנאמר: 'כִּי בִרְאֹתוֹ יְלָדָיו מַעֲשֵׂה יָדַי בְּקִרְבּוֹ יַקְדִּישׁוּ שְׁמִי' (שם כט, כג) וכן הוא אומר 'יִשְׂרָאֵל אֲשֶׁר בְּךָ אֶתְפָּאָר' (שם מט, ג). אתם מתקדשים בי ואני מתקדש בכם שנאמר: 'וְהִתְקַדִּשְׁתֶּם וִהְיִיתֶם קְדֹשִׁים' (ויקרא יא, מד; שם כ, ז)".</p>
+            </div>
+
+            <div class="piyut-text">
+                <p>חֲמוֹל עַל מַעֲשֶׂיךָ (על ברואיך. כמו שכתוב "טוֹב ה' לַכֹּל וְרַחֲמָיו עַל כָּל מַעֲשָׂיו" (תהלים קמה, ט)), וְתִשְׂמַח בְּמַעֲשֶׂיךָ (כמו שכתוב "יְהִי כְבוֹד ה' לְעוֹלָם יִשְׂמַח ה' בְּמַעֲשָׂיו" (תהלים קד, לא)),</p>
+                
+                <p>וְיֹאמְרוּ לְךָ חוֹסֶיךָ (עם ישראל החוסים ובוטחים בך), בְּצַדֶּקְךָ עֲמוּסֶיךָ (בזמן שאתה מצדק ומלמד זכות על עם ישראל שנאמר עליהם "הַעֲמֻסִים מִנִּי בֶטֶן הַנְּשֻׂאִים מִנִּי רָחַם" (ישעיהו מו, ד)),</p>
+                
+                <p>בזמן זה עם ישראל יאמרו לך קדושה: "תֻּקְדַּשׁ אָדוֹן עַל כָּל מַעֲשֶׂיךָ" וראוי להם להקדישך- כִּי את מַקְדִּישֶׁיךָ (ישראל) בִּקְדֻשָּׁתְךָ קִדַּשְׁתָּ, ונָאֶה לְקָדוֹשׁ (ה') פְּאֵר מִעם ישראל שהם קְּדוֹשִׁים (כמו שכתוב במדרש הנ"ל).</p>
+            </div>
+        </article>
+
+        <article class="content-section">
+            <h2>אלהינו ואלהי אבותינו - Prayer for Redemption</h2>
+            
+            <div class="commentary">
+                <p>פיוט זה הוא בקשה הנאמרת לאחר סדר העבודה ביום כיפור, כחלק מבקשות נוספות הנאמרות שם על זמן הגאולה והשבת סדר העבודה למקומו. הפיוט מיוחס לרש"י או למישהו מבית מדרשו, אך יחוס זה אינו ברור. התפילה מסודרת לפי סדר תשר"ק: תתן, תשיב, תרומם תקומם וכו'. בכמה מחזורים המילים בפיוט מחולקות לקהל והחזן, ובסוף, החזן קורא בקול  רם "תדרוש גאולה לגלותינו" והקהל והחזן ממשיכים ביחד "תגלה קץ" עד הסוף.</p>
+            </div>
+
+            <div class="piyut-text">
+                <p><strong>אֱלהֵינוּ וֵאלהֵי אֲבותֵינוּ:</strong></p>
+                
+                <p>תִּתֵּן אַחֲרִית לְעַמֶּךָ (כמו שכתוב: "ּאָנֹכִי יָדַעְתִּי אֶת הַמַּחֲשָׁבֹת אֲשֶׁר אָנֹכִי חֹשֵׁב עֲלֵיכֶם נְאֻם ה'... לָתֵת לָכֶם אַחֲרִית וְתִקְוָה" (ירמיהו כט, יא)).</p>
+                
+                <p>תָּשִׁיב מִקְדָּשׁ לְתוֹכֵנוּ (כמו שכתוב "וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם" (שמות כה, ח) ובזמן הגאולה "וְנָתַתִּי אֶת מִקְדָּשִׁי בְּתוֹכָם לְעוֹלָם" (יחזקאל לז, כו)).</p>
+                
+                <p>תְּרוֹמֵם הַר מְרוֹם הָרִים (כמו שכתוב: " וְהָיָה בְּאַחֲרִית הַיָּמִים נָכוֹן יִהְיֶה הַר בֵּית ה' בְּרֹאשׁ הֶהָרִים וְנִשָּׂא מִגְּבָעוֹת וְנָהֲרוּ אֵלָיו כָּל הַגּוֹיִם " (ישעיהו ב', ב)).</p>
+                
+                <p>תְּקוֹמֵם את קֶרֶן עם ישראל (המסמלת חוזק) הגְּדוּעָה ("גָּדַע בָּחֳרִי אַף כֹּל קֶרֶן יִשְׂרָאֵל" (איכה ב, ג) וכתוב על זמן הגאולה: "יְהַלְלוּ אֶת שֵׁם ה' כִּי נִשְׂגָּב שְׁמוֹ לְבַדּוֹ... וַיָּרֶם קֶרֶן לְעַמּוֹ... לִבְנֵי יִשְׂרָאֵל (תהלים קמח, יג-יד)).</p>
+                
+                <p>תַּצְהִיר מַחֲשַׁכֵּי אִוּוּי (תאיר את המקדש המכונה איווי<sup>[9]</sup>. ועל זמן הגלות נאמר "בְּמַחֲשַׁכִּים הוֹשִׁיבַנִי כְּמֵתֵי עוֹלָם" (איכה ג, ו)).</p>
+                
+                <p>תְּפָאֵר את ירושלים שיושֶׁבֶת בָּדָד ("איכה ישבה בדד..." (איכה א, א)).</p>
+                
+                <p>תַּעֲטֶה (תלבש, תעטוף) בָּהּ מְלוּכָה לְבַדֶּך ("וְנִשְׂגַּב ה' לְבַדּוֹ בַּיּוֹם הַהוּא" (ישעיהו ב, יא וְיז)).</p>
+                
+                <p>תָּסִיר חֶרְפָּה מֵעִיר ("ואין עיר אלא ירושלים" (כתובות קיא ע"ב). וכתוב על ירושלים "יְרוּשָׁלִַם וְעַמְּךָ לְחֶרְפָּה לְכָל סְבִיבֹתֵינוּ" (דניאל ט, טז) ונאמר "וְחֶרְפַּת עַמּוֹ יָסִיר מֵעַל כָּל הָאָרֶץ..." (ישעיהו כה, ח)).</p>
+                
+                <p>תְּנַעֵר זֵדִים (תנער ותוציא את הרשעים, "לֶאֱחֹז בְּכַנְפוֹת הָאָרֶץ וְיִנָּעֲרוּ רְשָׁעִים מִמֶּנָּה" (איוב לח, יג)) מִזְּבוּלֶךָ ("ואין זבול אלא ביהמ"ק, שנאמר 'בנה בניתי בית זבֻ‏‎ל לך' (מלכים א' ח, יג)" (ר"ה יז ע"א)).</p>
+                
+                <p>תַּמְצִיא צְדָקָה לַעֲדָתֶךָ ("עשה עמנו צדקה וחסד").</p>
+                
+                <p>תְּלַבֵּב אֶת רַעְיָתֶךָ (תחבב את עם ישראל שנמשלו בשיר השירים לרעייתך. והוא מלשון הפסוק: "לִבַּבְתִּנִי אֲחֹתִי כַלָּה" (שיר השירים ד, ט) וזו לשון קִרבה וחיבה, מלשון לב (שבת נג ע"ב)).</p>
+                
+                <p>תִּכְרת לָהּ בְּרִית חֲדָשָׁה (כמו שכתוב "הִנֵּה יָמִים בָּאִים נְאֻם ה' וְכָרַתִּי אֶת בֵּית יִשְׂרָאֵל וְאֶת בֵּית יְהוּדָה בְּרִית חֲדָשָׁה... כִּי זֹאת הַבְּרִית... נָתַתִּי אֶת תּוֹרָתִי בְּקִרְבָּם וְעַל לִבָּם אֶכְתֲּבֶנָּה... כִּי כוּלָּם יֵדְעוּ אוֹתִי לְמִקְטַנָּם וְעַד גְּדוֹלָם נְאֻם ה' כִּי אֶסְלַח לַעֲוֹנָם, וּלְחַטָּאתָם לֹא אֶזְכָּר עוֹד" (ירמיהו לא, ל-לג))</p>
+                
+                <p>תִּיקַר נַפְשָׁהּ בְּעֵינֶיךָ (תהיה מכובדת ויקרה נפשה של רעייתך בעיניך. והוא מלשון הפסוקים (שמואל א' כו, כא<sup>[10]</sup> ומלכים ב' א, יד<sup>[11]</sup>)).</p>
+                
+                <p>תְּטַהֲרֶנָּה בְּמַיִם טְהוֹרִים (כמו שכתוב: "וְזָרַקְתִּי עֲלֵיכֶם מַיִם טְהוֹרִים וּטְהַרְתֶּם מִכֹּל טֻמְאוֹתֵיכֶם וּמִכָּל גִּלּוּלֵיכֶם אֲטַהֵר אֶתְכֶם" (יחזקאל לו, כה)).</p>
+                
+                <p>תַּחֲנֶה בְּעִיר חָנָה דָוִד (תשכון בירושלים שנאמר עליה "הוֹי אֲרִיאֵל אֲרִיאֵל קִרְיַת חָנָה דָוִד"... (ישעיהו פרק כט, א)).</p>
+                
+                <p>תִּזְקֹף קוֹמַת עם ישראל המכונים תְּמָרָה (כמו שכתוב: "זֹאת קוֹמָתֵךְ דָּמְתָה לְתָמָר" (שיר השירים ז, ח)).</p>
+                
+                <p>תּוֹדִיעַ לַכּל אַהֲבָתֵנוּ (כמ"ש "וְנוֹדַע בַּגּוֹיִם זַרְעָם וְצֶאֱצָאֵיהֶם בְּתוֹךְ הָעַמִּים כָּל רֹאֵיהֶם יַכִּירוּם כִּי הֵם זֶרַע בֵּרַךְ ה' " (ישעיהו סא, ט)).</p>
+                
+                <p>תְּהַלֵּךְ בְּקֶרֶב מַחֲנוֹתֵינוּ (כמו שכתוב: "כִּי ה' אֱלֹהֶיךָ מִתְהַלֵּךְ בְּקֶרֶב מַחֲנֶךָ לְהַצִּילְךָ וְלָתֵת אֹיְבֶיךָ לְפָנֶיךָ").</p>
+                
+                <p>תִּדְרשׁ (תבקש ותדאג) שתגיע הגְּאֻלָּה לְגָלוּתֵנוּ.</p>
+                
+                <p>תְּגַלֶּה את זמן הקֵץ על מנת לִקְנוֹתֵנוּ שוב להיות עמך (כמ"ש "וְהָיָה בַּיּוֹם הַהוּא יוֹסִיף אֲדֹנָי שֵׁנִית יָדוֹ (מלבד גאולת מצרים) לִקְנוֹת אֶת שְׁאָר עַמּוֹ אֲשֶׁר יִשָּׁאֵר מֵאַשּׁוּר וּמִמִּצְרַיִם..." (ישעיהו יא, יא))</p>
+                
+                <p>תָּבוֹא מְהֵרָה על מנת לְרַחֲמֵנוּ ("וְשָׁב ה' אֱלֹהֶיךָ אֶת שְׁבוּתְךָ וְרִחֲמֶךָ" (דברים ל, ג)) ויש גורסים "לְנַחֲמֵנוּ" (כְּאִישׁ אֲשֶׁר אִמּוֹ תְּנַחֲמֶנּוּ כֵּן אָנֹכִי אֲנַחֶמְכֶם וּבִירוּשָׁלִַם תְּנֻחָמוּ (ישעיהו סו, יג)).</p>
+                
+                <p>תַּאֲמִירֵנוּ (תבחרנו/תשבחנו) לְךָ וְנַאֲמִירְךָ לָנוּ (כמו שכתוב: "אֶת ה' הֶאֱמַרְתָּ הַיּוֹם לִהְיוֹת לְךָ לֵאלֹהִים... וַה' הֶאֱמִירְךָ הַיּוֹם לִהְיוֹת לוֹ לְעַם סְגֻלָּה"...)</p>
+            </div>
+
+            <h3>Additional Footnotes</h3>
+            <div class="footnote">[9] " 'אוה למושב לו'- נתאוה לישב בה ולשכן שכינתו בתוכה, שהרי נתאוה הקדוש ברוך הוא לשכון בתחתונים, לכך נאמר 'כי יד על כס י-ה', מן כס נחסר א' ומן י-ה נחסר ו-ה, הרי מן כס י-ה נחסר אוה, לפי שטיטוס החריב האיווי מה שאיוה למושב לו, וכתיב 'פה אשב כי איויתיה' " (פירושי סידור התפילה לרוקח [כו] יהי כבוד).</div>
+            <div class="footnote">[10] וַיֹּאמֶר שָׁאוּל חָטָאתִי שׁוּב בְּנִי דָוִד כִּי לֹא אָרַע לְךָ עוֹד תַּחַת אֲשֶׁר יָקְרָה נַפְשִׁי בְּעֵינֶיךָ הַיּוֹם הַזֶּה הִנֵּה הִסְכַּלְתִּי וָאֶשְׁגֶּה הַרְבֵּה מְאֹד:</div>
+            <div class="footnote">[11] הִנֵּה יָרְדָה אֵשׁ מִן הַשָּׁמַיִם וַתֹּאכַל אֶת שְׁנֵי שָׂרֵי הַחֲמִשִּׁים הָרִאשֹׁנִים וְאֶת חֲמִשֵּׁיהֶם וְעַתָּה תִּיקַר נַפְשִׁי בְּעֵינֶיךָ:</div>
+        </article>
+    </main>
+
+    
+    <!-- Legal Footer -->
+    <footer class="legal-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="all-rights-reserved">
+            <p>© 2026 מלאכי גוטמן. כל הזכויות שמורות.</p>
+          </div>
+          <div class="footer-social">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon social-facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon social-instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-icon social-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a></div>
+          <div class="footer-legal">
+            <a href="/privacy" aria-label="מדיניות פרטיות">
+              מדיניות פרטיות
+            </a>
+            <span class="separator">|</span>
+            <a href="/accessibility" aria-label="נגישות">
+              נגישות
+            </a>
+            <span class="separator">|</span>
+            <a href="/terms" aria-label="תנאי שימוש">
+              תנאי שימוש
+            </a>
+          </div>
+        </div>
+        <div class="zappy-attribution">
+          <p>נוצר באמצעות&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (mobileMenuToggle && navMenu) {
+            mobileMenuToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                const isExpanded = navMenu.classList.contains('active');
+                this.setAttribute('aria-expanded', isExpanded);
+                this.textContent = isExpanded ? '✕' : '☰';
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                const isClickInsideNav = navMenu.contains(event.target);
+                const isClickOnToggle = mobileMenuToggle.contains(event.target);
+                
+                if (!isClickInsideNav && !isClickOnToggle && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                    mobileMenuToggle.textContent = '☰';
+                }
+            });
+
+            // Close menu when window is resized to desktop
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768 && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                    mobileMenuToggle.textContent = '☰';
+                }
+            });
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animation for content sections
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.content-section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+
+
+<script>
+
+// Navbar Mobile Menu Toggle and Contrast Fix
+(function() {
+  // Use 'load' event instead of 'DOMContentLoaded' to ensure we run AFTER all other scripts
+  window.addEventListener('load', function() {
+    
+    // FIX MOBILE BUTTON CONTRAST
+    // Detect navbar background color and apply contrasting color to mobile buttons
+    const navbar = document.querySelector('.navbar, nav, header');
+    if (!navbar) {
+      console.log('[Navbar] Navbar element not found');
+      return;
+    }
+    
+    const computedStyle = window.getComputedStyle(navbar);
+    let bgColor = computedStyle.backgroundColor;
+    
+    console.log('[Navbar] Initial navbar background:', bgColor);
+    
+    // Check if background is transparent or rgba with 0 alpha
+    const isTransparent = bgColor === 'transparent' || 
+                         bgColor === 'rgba(0, 0, 0, 0)' ||
+                         (bgColor.startsWith('rgba') && bgColor.includes(', 0)'));
+    
+    if (isTransparent) {
+      // Check for background-image or gradient
+      const bgImage = computedStyle.backgroundImage;
+      if (bgImage && bgImage !== 'none') {
+        console.log('[Navbar] Navbar has background image/gradient, using dark text');
+        bgColor = 'rgb(240, 240, 240)'; // Assume light background
+      } else {
+        // Transparent navbar - check body background
+        const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+        console.log('[Navbar] Navbar transparent, using body background:', bodyBg);
+        bgColor = bodyBg;
+      }
+    }
+    
+    // Calculate luminance to determine if background is light or dark
+    const rgb = bgColor.match(/\d+/g);
+    if (rgb && rgb.length >= 3) {
+      const r = parseInt(rgb[0]);
+      const g = parseInt(rgb[1]);
+      const b = parseInt(rgb[2]);
+      const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+      
+      // Apply dynamic colors based on navbar background luminance
+      const mobileToggle = document.querySelector('.mobile-toggle');
+      const phoneBtn = document.querySelector('.phone-header-btn');
+      
+      // Determine hamburger color based on background luminance
+      // Dark background (luminance < 0.5) → use light text
+      // Light background (luminance >= 0.5) → use dark text
+      const hamburgerColor = luminance < 0.5 
+        ? 'var(--text-light, #ffffff)' 
+        : 'var(--text-dark, #1a1a1a)';
+      
+      // Phone CTA uses accent color for visibility
+      const phoneColor = 'var(--accent, #f59e0b)';
+      
+      if (mobileToggle) {
+        mobileToggle.style.color = hamburgerColor;
+        console.log('[Navbar] Set hamburger color:', hamburgerColor, '(luminance:', luminance.toFixed(2) + ')');
+      }
+      
+      if (phoneBtn) {
+        phoneBtn.style.color = phoneColor;
+        console.log('[Navbar] Set phone CTA color:', phoneColor);
+      }
+      
+      console.log('[Navbar] Mobile buttons colors applied:', { 
+        bgColor, 
+        luminance: luminance.toFixed(2),
+        hamburgerColor,
+        phoneColor,
+        buttons: { mobileToggle: !!mobileToggle, phoneBtn: !!phoneBtn }
+      });
+      
+      // FIX ICON SIZES - Ensure SVGs are properly sized and visible
+      // INJECT CRITICAL CSS TO OVERRIDE ANY CONFLICTING RULES
+      const criticalCSS = document.createElement('style');
+      criticalCSS.id = 'zappy-mobile-nav-fix';
+      const htmlLang = document.documentElement.lang || 'en';
+      const htmlDir = document.documentElement.dir || 'ltr';
+      // Check both dir attribute AND lang for RTL detection
+      // dir="rtl" is the most reliable indicator
+      const isRTL = htmlDir === 'rtl' || htmlLang === 'he' || htmlLang === 'ar';
+      
+      criticalCSS.textContent = `
+        /* Hide mobile buttons on desktop, show only on mobile */
+        @media (min-width: 769px) {
+          .mobile-toggle,
+          .phone-header-btn {
+            display: none !important;
+          }
+        }
+        
+        /* Show and position mobile buttons correctly on mobile */
+        @media (max-width: 768px) {
+          .mobile-toggle,
+          .phone-header-btn {
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            z-index: 1001 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 44px !important;
+            height: 44px !important;
+            border-radius: 50% !important;
+            border: none !important;
+            cursor: pointer !important;
+            padding: 8px !important;
+            background: none !important;
+          }
+          
+          .mobile-toggle {
+            color: ${hamburgerColor} !important;
+          }
+          
+          .phone-header-btn {
+            color: ${phoneColor} !important;
+          }
+          
+          /* LTR positioning (default): hamburger LEFT, phone RIGHT */
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .mobile-toggle,
+          html[dir="ltr"] .mobile-toggle {
+            left: 20px !important;
+            right: auto !important;
+          }
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .phone-header-btn,
+          html[dir="ltr"] .phone-header-btn {
+            right: 20px !important;
+            left: auto !important;
+          }
+          
+          /* RTL positioning: hamburger RIGHT, phone LEFT */
+          html[dir="rtl"] .mobile-toggle,
+          html[lang="he"] .mobile-toggle,
+          html[lang="ar"] .mobile-toggle {
+            right: 20px !important;
+            left: auto !important;
+          }
+          html[dir="rtl"] .phone-header-btn,
+          html[lang="he"] .phone-header-btn,
+          html[lang="ar"] .phone-header-btn {
+            left: 20px !important;
+            right: auto !important;
+          }
+          
+          /* Ensure SVG icons are properly sized and inherit color */
+          .mobile-toggle svg,
+          .phone-header-btn svg {
+            width: 24px !important;
+            height: 24px !important;
+            /* Don't force display - let JavaScript control hamburger/close toggle */
+          }
+          
+          /* ===========================================
+             MOBILE LANGUAGE SWITCHER POSITIONING & COLOR
+             =========================================== */
+          .nav-cta-container {
+            display: flex !important;
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            background: transparent !important;
+            width: auto !important;
+            z-index: 1001 !important;
+          }
+          
+          /* Hide CTA button on mobile */
+          .nav-cta-container .nav-cta-btn,
+          .nav-cta-container > a:not(.lang-option):not(.lang-switcher-current) {
+            display: none !important;
+          }
+          
+          /* LTR: language switcher near hamburger (left side) */
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .nav-cta-container,
+          html[dir="ltr"] .nav-cta-container {
+            left: 30px !important;
+            right: auto !important;
+          }
+          
+          /* RTL: language switcher near hamburger (right side) */
+          html[dir="rtl"] .nav-cta-container,
+          html[lang="he"] .nav-cta-container,
+          html[lang="ar"] .nav-cta-container {
+            right: 30px !important;
+            left: auto !important;
+          }
+          
+          /* Language switcher icon - dark color for visibility on light navbar */
+          .lang-switcher-current {
+            color: var(--text-dark, #1a1a1a) !important;
+          }
+          .lang-switcher-current svg {
+            fill: var(--text-dark, #1a1a1a) !important;
+          }
+        }
+      `;
+      
+      // Remove existing fix if present and inject new one
+      const existing = document.getElementById('zappy-mobile-nav-fix');
+      if (existing) existing.remove();
+      document.head.appendChild(criticalCSS);
+      
+      console.log('[Navbar] Critical CSS injected for mobile nav positioning');
+      
+      // ONLY apply inline positioning styles on mobile viewport
+      // On desktop, the CSS handles hiding these buttons with display: none
+      // Inline styles were breaking desktop layout by overriding CSS
+      const isMobileViewport = window.innerWidth <= 768;
+      
+      if (mobileToggle) {
+        // Icon sizing applies to all viewports for consistency
+        const hamburgerIcon = mobileToggle.querySelector('.hamburger-icon');
+        const closeIcon = mobileToggle.querySelector('.close-icon');
+        
+        if (hamburgerIcon) {
+          hamburgerIcon.style.setProperty('width', '24px', 'important');
+          hamburgerIcon.style.setProperty('height', '24px', 'important');
+          hamburgerIcon.style.setProperty('display', 'block', 'important'); // Show hamburger by default
+        }
+        if (closeIcon) {
+          closeIcon.style.setProperty('width', '24px', 'important');
+          closeIcon.style.setProperty('height', '24px', 'important');
+          closeIcon.style.setProperty('display', 'none', 'important'); // Hide close icon by default
+        }
+        
+        // ONLY set positioning inline styles on mobile
+        if (isMobileViewport) {
+          mobileToggle.style.setProperty('position', 'absolute', 'important');
+          mobileToggle.style.setProperty('top', '50%', 'important');
+          mobileToggle.style.setProperty('transform', 'translateY(-50%)', 'important');
+          mobileToggle.style.setProperty('z-index', '1001', 'important');
+          
+          // Clear any inline left/right so CSS can take over based on html[dir]
+          mobileToggle.style.removeProperty('left');
+          mobileToggle.style.removeProperty('right');
+          
+          console.log('[Navbar] Mobile toggle positioning applied (mobile viewport)');
+        } else {
+          // On desktop, clear any positioning styles to let CSS handle it
+          mobileToggle.style.removeProperty('position');
+          mobileToggle.style.removeProperty('top');
+          mobileToggle.style.removeProperty('transform');
+          mobileToggle.style.removeProperty('z-index');
+          mobileToggle.style.removeProperty('left');
+          mobileToggle.style.removeProperty('right');
+          console.log('[Navbar] Desktop viewport - cleared mobile toggle inline positioning');
+        }
+      }
+      
+      if (phoneBtn) {
+        // Icon sizing applies to all viewports
+        const phoneIcon = phoneBtn.querySelector('svg');
+        if (phoneIcon) {
+          phoneIcon.style.width = '24px';
+          phoneIcon.style.height = '24px';
+          phoneIcon.setAttribute('width', '24');
+          phoneIcon.setAttribute('height', '24');
+        }
+        
+        // ONLY set positioning inline styles on mobile
+        if (isMobileViewport) {
+          phoneBtn.style.setProperty('position', 'absolute', 'important');
+          phoneBtn.style.setProperty('top', '50%', 'important');
+          phoneBtn.style.setProperty('transform', 'translateY(-50%)', 'important');
+          phoneBtn.style.setProperty('z-index', '1001', 'important');
+          
+          // Clear any inline left/right so CSS can take over based on html[dir]
+          phoneBtn.style.removeProperty('left');
+          phoneBtn.style.removeProperty('right');
+          
+          console.log('[Navbar] Phone button positioning applied (mobile viewport)');
+        } else {
+          // On desktop, clear any positioning styles to let CSS handle it
+          phoneBtn.style.removeProperty('position');
+          phoneBtn.style.removeProperty('top');
+          phoneBtn.style.removeProperty('transform');
+          phoneBtn.style.removeProperty('z-index');
+          phoneBtn.style.removeProperty('left');
+          phoneBtn.style.removeProperty('right');
+          console.log('[Navbar] Desktop viewport - cleared phone button inline positioning');
+        }
+      }
+    } else {
+      console.log('[Navbar] Could not parse background color:', bgColor);
+    }
+    
+    // MOBILE MENU TOGGLE
+    // EXPANDED SEARCH: Find toggle by ID or class (for cloned sites)
+    let mobileToggle = document.getElementById('mobileToggle') ||
+                       document.querySelector('.mobile-toggle') ||
+                       document.querySelector('.hamburger') ||
+                       document.querySelector('.hamburger-menu') ||
+                       document.querySelector('.menu-toggle') ||
+                       document.querySelector('.burger-menu') ||
+                       document.querySelector('[aria-label="Menu"]') ||
+                       document.querySelector('[aria-label="תפריט"]');
+    
+    // EXPANDED SEARCH: Find nav menu by ID or class
+    let navMenu = document.getElementById('navMenu') ||
+                  document.querySelector('.nav-menu') ||
+                  document.querySelector('.nav-links') ||
+                  document.querySelector('nav ul:not(.submenu)');
+    
+    if (!mobileToggle || !navMenu) {
+      console.log('[Navbar] Mobile toggle or menu not found:', { toggle: !!mobileToggle, menu: !!navMenu });
+      return;
+    }
+    
+    // Ensure navMenu has ID for CSS targeting
+    if (!navMenu.id) {
+      navMenu.id = 'navMenu';
+    }
+    
+    console.log('[Navbar] Initializing mobile menu...');
+    
+    // Remove any existing event listeners by cloning the button
+    const newToggle = mobileToggle.cloneNode(true);
+    mobileToggle.parentNode.replaceChild(newToggle, mobileToggle);
+    
+    // Toggle menu on button click - use newToggle now
+    newToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const hamburgerIcon = this.querySelector('.hamburger-icon');
+      const closeIcon = this.querySelector('.close-icon');
+      const isActive = navMenu.classList.contains('active');
+      
+      if (isActive) {
+        // Close menu
+        navMenu.classList.remove('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+        console.log('[Navbar] Menu closed');
+      } else {
+        // Open menu
+        navMenu.classList.add('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
+        document.body.style.overflow = 'hidden';
+        console.log('[Navbar] Menu opened');
+      }
+    });
+    
+    // Close menu when clicking nav links
+    const navLinks = navMenu.querySelectorAll('a');
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        const hamburgerIcon = newToggle.querySelector('.hamburger-icon');
+        const closeIcon = newToggle.querySelector('.close-icon');
+        
+        navMenu.classList.remove('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+        console.log('[Navbar] Menu closed (link clicked)');
+      });
+    });
+    
+    // Phone button functionality
+    const phoneBtn = document.querySelector('.phone-header-btn');
+    if (phoneBtn) {
+      phoneBtn.addEventListener('click', function() {
+        // Get phone number from placeholder in page or use default
+        const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+        const phoneNumber = phoneLinks.length > 0 
+          ? phoneLinks[0].getAttribute('href').replace('tel:', '')
+          : '[business_phone]';
+        
+        window.location.href = 'tel:' + phoneNumber;
+        console.log('[Navbar] Phone button clicked');
+      });
+    }
+    
+    console.log('[Navbar] Mobile menu initialized successfully');
+    
+    // === WHATSAPP BUTTON VISIBILITY FIX ===
+    // Ensure WhatsApp floating button is hidden on desktop and visible on mobile
+    // IMPORTANT: Only target the floating button by its class, NOT generic wa.me links
+    const handleWhatsAppVisibility = function() {
+      const whatsappBtn = document.querySelector('.whatsapp-float');
+      if (whatsappBtn) {
+        const isDesktop = window.innerWidth >= 769;
+        if (isDesktop) {
+          whatsappBtn.style.setProperty('display', 'none', 'important');
+          whatsappBtn.style.setProperty('visibility', 'hidden', 'important');
+          whatsappBtn.style.setProperty('opacity', '0', 'important');
+          whatsappBtn.style.setProperty('pointer-events', 'none', 'important');
+          console.log('[WhatsApp] Button hidden on desktop');
+        } else {
+          whatsappBtn.style.removeProperty('display');
+          whatsappBtn.style.removeProperty('visibility');
+          whatsappBtn.style.removeProperty('opacity');
+          whatsappBtn.style.removeProperty('pointer-events');
+          console.log('[WhatsApp] Button visible on mobile');
+        }
+      }
+    };
+    
+    // Run on load
+    handleWhatsAppVisibility();
+    
+    // Run on resize with debouncing
+    let resizeTimer;
+    window.addEventListener('resize', function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(handleWhatsAppVisibility, 100);
+    });
+  });
+})();
+
+</script>
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '26e2d05d-2610-4749-a7d4-2b2b9f79941f';
+  
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
+  
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+      // Re-initialize when mobile menu becomes visible (MutationObserver)
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            var target = mutation.target;
+            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
+              setTimeout(initMobileSubmenuToggles, 100);
+            }
+          }
+        });
+      });
+      setTimeout(function() {
+        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
+          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+        });
+      }, 500);
+    })();
+    </script>
+    <script src="/script.js"></script>
+</body></html>

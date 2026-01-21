@@ -1,0 +1,52 @@
+# Clean URL redirects for Render static hosting
+# Generated: 2026-01-21T11:58:58.045Z
+# NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
+# This file is kept for reference only
+
+/view/tuv-hatora/  /view/tuv-hatora.html  200!
+/view/tuv-hatora/home  /view/tuv-hatora/home.html  200!
+/view/tuv-hatora/about  /view/tuv-hatora/about.html  200!
+/view/tuv-hatora/seferbereshit  /view/tuv-hatora/seferbereshit.html  200!
+/view/tuv-hatora/sefershmot  /view/tuv-hatora/sefershmot.html  200!
+/view/tuv-hatora/sefervaikra  /view/tuv-hatora/sefervaikra.html  200!
+/view/tuv-hatora/sefer-bamidbar  /view/tuv-hatora/sefer-bamidbar.html  200!
+/view/tuv-hatora/seferdvarim  /view/tuv-hatora/seferdvarim.html  200!
+/view/tuv-hatora/seferdvarim/dvarim  /view/tuv-hatora/seferdvarim/dvarim.html  200!
+/view/tuv-hatora/seferdvarim/vaetchanan  /view/tuv-hatora/seferdvarim/vaetchanan.html  200!
+/view/tuv-hatora/holidays  /view/tuv-hatora/holidays.html  200!
+/view/tuv-hatora/holidays/purim  /view/tuv-hatora/holidays/purim.html  200!
+/view/tuv-hatora/holidays/passover  /view/tuv-hatora/holidays/passover.html  200!
+/view/tuv-hatora/holidays/passover/shviee  /view/tuv-hatora/holidays/passover/shviee.html  200!
+/view/tuv-hatora/holidays/azmaut  /view/tuv-hatora/holidays/azmaut.html  200!
+/view/tuv-hatora/holidays/rosh-hashana  /view/tuv-hatora/holidays/rosh-hashana.html  200!
+/view/tuv-hatora/holidays/sukot  /view/tuv-hatora/holidays/sukot.html  200!
+/view/tuv-hatora/articles  /view/tuv-hatora/articles.html  200!
+/view/tuv-hatora/articles/hanaatora  /view/tuv-hatora/articles/hanaatora.html  200!
+/view/tuv-hatora/articles/behira  /view/tuv-hatora/articles/behira.html  200!
+/view/tuv-hatora/piut  /view/tuv-hatora/piut.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2Fkolmekadesh  /view/tuv-hatora/piut/ליל-שבת/kolmekadesh/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2Fmenuha  /view/tuv-hatora/piut/ליל-שבת/menuha/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2Fmayedidut  /view/tuv-hatora/piut/ליל-שבת/mayedidut/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2Fmayfit  /view/tuv-hatora/piut/ליל-שבת/mayfit/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2Fyomkodesh  /view/tuv-hatora/piut/ליל-שבת/yomkodesh/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2Fyaribon  /view/tuv-hatora/piut/ליל-שבת/yaribon/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2Fyoduha  /view/tuv-hatora/piut/ליל-שבת/yoduha/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%9C%D7%99%D7%9C-%D7%A9%D7%91%D7%AA%2F%D7%A6%D7%9E%D7%90%D7%94-%D7%A0%D7%A4%D7%A9%D7%99  /view/tuv-hatora/piut/ליל-שבת/צמאה-נפשי/index.html  200!
+/view%2Ftuv-hatora%2Fpiut%2F%D7%99%D7%95%D7%9D-%D7%94%D7%A9%D7%91%D7%AA%2Fyomshabaton  /view/tuv-hatora/piut/יום-השבת/yomshabaton/index.html  200!
+/view%2Ftuv-hatora%2F%D7%A4%D7%99%D7%95%D7%98%D7%99%D7%9D-%D7%9B%D7%9C%D7%9C%D7%99%D7%99%D7%9D%2Fbachazihalaila  /view/tuv-hatora/פיוטים-כלליים/bachazihalaila/index.html  200!
+/view%2Ftuv-hatora%2F%D7%A4%D7%99%D7%95%D7%98%D7%99%D7%9D-%D7%9B%D7%9C%D7%9C%D7%99%D7%99%D7%9D%2Fyamim-noraim  /view/tuv-hatora/פיוטים-כלליים/yamim-noraim/index.html  200!
+/view/tuv-hatora/mikra  /view/tuv-hatora/mikra.html  200!
+/view/tuv-hatora/kodesh  /view/tuv-hatora/kodesh.html  200!
+/privacy  /privacy.html  200!
+/accessibility  /accessibility.html  200!
+/terms  /terms.html  200!
+
+# Legal pages - redirect old .html URLs to friendly URLs
+/privacy.html  /privacy  301
+/accessibility.html  /accessibility  301
+/terms.html  /terms  301
+
+/  /index.html  200!
+
+# SPA fallback - serve index.html for all unmatched routes
+/*  /index.html  200
